@@ -1,21 +1,20 @@
-# REST API عالي الأداء مع التخزين المؤقت المتقدم
-**High-Performance REST API with Advanced Caching** · التصنيف: خلفية (Backend)
+# High-Performance REST API with Advanced Caching
+**High-Performance REST API with Advanced Caching** · Category: Backend
 
-> هذا المشروع خاص بشركة/عميل محدد، والكود المصدري غير منشور.
 > Private client work — the source code is not public.
 
-## نبذة عن المشروع
-API كثيف القراءة يخدم أكثر من 50,000 طلب/دقيقة.
+## Project overview
+Read-heavy API serving more than 50,000 requests/minute.
 
-## أبرز النقاط
-- تخزين مؤقت متعدد الطبقات: IMemoryCache + Redis + HTTP
+## Highlights
+- Multi-layer caching: IMemoryCache + Redis + HTTP
 - Nginx Load Balancing + SSL Termination
-- مهام خلفية بـ Hangfire مع لوحة مراقبة
+- Background jobs with Hangfire and a monitoring dashboard
 
-## الدور
-مطوّر Backend: تصميم وبناء الخدمات الخلفية وواجهات API، وإدارة قواعد البيانات والتخزين المؤقت، وتنفيذ المصادقة والأمان وتحسين الأداء.
+## Role
+Backend Developer: design and build backend services and APIs, manage databases and caching, implement authentication and security, and perform performance tuning.
 
-## التقنيات المستخدمة
+## Technologies used
 ASP.NET Core, Dapper, Redis, PostgreSQL, Nginx, Docker, Hangfire
 
-التفاصيل في [TECHSTACK.md](./TECHSTACK.md).
+Details in [TECHSTACK.md](./TECHSTACK.md).

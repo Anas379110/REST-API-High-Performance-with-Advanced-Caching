@@ -1,4 +1,4 @@
-# 🛠️ التقنيات المستخدمة — REST API عالي الأداء مع التخزين المؤقت المتقدم
+# 🛠️ Technologies Used — High-Performance REST API with Advanced Caching
 
 - ASP.NET Core
 - Dapper
